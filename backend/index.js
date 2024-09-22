@@ -20,7 +20,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(cookieParser());
 const corsOptions = {
-    origin:'https://workconnect-1.onrender.com',
+    origin: '*',
     
     credentials:true
 }
